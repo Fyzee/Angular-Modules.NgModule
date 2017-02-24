@@ -7,3 +7,8 @@ bower_components
 aot/*
 dist/*
 yarn.lock
+
+
+# Ignores compiled TypeScript files
+**/wwwroot/app/**/*.map
+**/wwwroot/app/**/*.js
